@@ -3,7 +3,7 @@ programa {
     inteiro dia
     escreva("Digite um número de 1 a 7: ")
     leia(dia)
-     se(dia==1){
+    se(dia==1){
       escreva("domingo")
     }senao se(dia==2){
       escreva("Segunda")
@@ -20,5 +20,6 @@ programa {
     }senao se(dia>7){
       escreva("Número Inválido")
     }
+
   }
 }
