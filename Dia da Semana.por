@@ -1,17 +1,14 @@
 programa {
   funcao inicio() {
     inteiro dia
-    escreva("Digite um n˙mero de 1 a 7: ")
-    //leia(dia)
-
-    dia=1
-
-    se(dia==1){
+    escreva("Digite um n√∫mero de 1 a 7: ")
+    leia(dia)
+     se(dia==1){
       escreva("domingo")
     }senao se(dia==2){
       escreva("Segunda")
     }senao se(dia==3){
-      escreva("TerÁa")
+      escreva("Ter√ßa")
     }senao se(dia==4){
       escreva("Quarta")
     }senao se(dia==5){
@@ -19,8 +16,9 @@ programa {
     }senao se(dia==6){
       escreva("Sexta")
     }senao se(dia==7){
-      escreva("S·bado")
+      escreva("S√°bado")
+    }senao se(dia>7){
+      escreva("N√∫mero Inv√°lido")
     }
-
   }
 }
