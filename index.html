@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai</title>
+</head>
+<body style="text-align: center;">
+    <h1>Exemplos Senai html</h1>
+    <p></p>
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" placeholder="Digite seu nome completo aqui"><br>
+    <button onclick="boasVindas()">Click Here</button><br>
+    <button onclick="parOuImpar()">Par ou Ímpar</button><br><br>
+    <script>
+        function boasVindas() {
+            let nome = document.getElementById("nome").value;
+            let ano = prompt("Welcome, " + nome + "!Bday date!");
+            if (2024 - ano > 17) {
+                alert("Vocé é maior de idade, " + (2024 - ano) + " anos");
+            }
+            else {
+                alert("Vocé é menor de idade " + (2024 - ano) + " anos");
+            }
+        }
+        function parOuImpar() {
+            let n = prompt("Escreva um número");
+            if (n % 2 == 0) {
+                alert("número é par");
+            }
+            else {
+                alert("O número é ìmpar");
+            }
+        }
+    </script>
+</body>
+</html>
